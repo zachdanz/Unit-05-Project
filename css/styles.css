@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+input {
+  margin: 0 auto;
+}
