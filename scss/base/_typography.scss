@@ -5,9 +5,5 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
+    font-family: $font-stack-primary;
   }
-
-h2 {
-    color: red;
-}

@@ -110,16 +110,16 @@ template { display: none; }
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
-* { box-sizing: border-box; font-family: 'Merriweather', serif; }
-
-h2 { color: red; }
+* { box-sizing: border-box; font-family: "Lato", sans-serif; }
 
 /* ============================================= */
-/*              Flexbox System                      */
+/*                   Thumbnails                  */
 /* ============================================= */
-img { display: flex; flex-direction: row; justify-content: space-around; align-items: center; width: 20%; align-items: flex-start; margin: 0 20px; }
-
 h2 { color: green; }
+
+.flex-photos { max-width: 1200px; margin-left: auto; margin-right: auto; display: flex; flex-direction: row; flex-wrap: wrap; flex: 33%; }
+
+.flex-photos img { margin: 10px; }
 
 /* ============================================= */
 /*              Search Bar                       */
