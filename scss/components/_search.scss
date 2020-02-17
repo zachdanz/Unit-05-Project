@@ -4,13 +4,17 @@
 /* ============================================= */
 
 #search {
+    background-image: url(/photos/search.png);
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
     display: block;
     width: 30%;
     margin: 0 auto;
-    font-size: 1.25em;
-    padding: .25em;
+    font-size: 1em;
+    padding: .75em;
+    padding-left: 40px;
     border: rgb(109, 109, 109) 2px solid;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 @media (max-width: $break-s) {
@@ -18,7 +22,7 @@
         width: 50%;
     }
 
-    p{
+    p {
         display: none;
     }
 }
@@ -28,7 +32,7 @@
         width: 40%;
     }
     
-    p{
+    p {
         display: none;
     }
 }
