@@ -115,12 +115,13 @@ template { display: none; }
 /* ============================================= */
 /*                   Thumbnails                  */
 /* ============================================= */
-h2 { color: green; }
+.flex-row { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; max-width: 1150px; margin: 0 auto; }
 
-.flex-photos { max-width: 1200px; margin-left: auto; margin-right: auto; display: flex; flex-direction: row; flex-wrap: wrap; flex: 33%; }
+.item { margin: 1.5em; }
 
-.flex-photos img { margin: 10px; }
+@media (min-width: 380px) { .search { width: 320px; } }
 
 /* ============================================= */
 /*              Search Bar                       */
 /* ============================================= */
+#search { display: block; width: 300px; margin: 0 auto; font-size: 1.25em; padding: .25em; border: #6d6d6d 2px solid; border-radius: 2px; }

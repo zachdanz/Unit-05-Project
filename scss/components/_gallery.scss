@@ -2,18 +2,27 @@
 /*                   Thumbnails                  */
 /* ============================================= */
 
-h2{
-    color: green;
-}
+//flexbox
 
-.flex-photos {
-    @include center;
+.flex-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 33%;
+    justify-content: center;   
+    max-width: $max-width;
+    margin: 0 auto;
 }
 
-.flex-photos img{
-    margin: 10px;
+.item {
+    margin: 1.5em;
+}
+
+@media (min-width: $break-s) {
+    .search {
+        width: 320px;  
+    }
+}
+
+@media (min-width: $break-m) {
+
 }

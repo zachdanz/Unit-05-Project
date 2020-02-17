@@ -2,3 +2,13 @@
 /* ============================================= */
 /*              Search Bar                       */
 /* ============================================= */
+
+#search {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 1.25em;
+    padding: .25em;
+    border: rgb(109, 109, 109) 2px solid;
+    border-radius: 2px;
+}
