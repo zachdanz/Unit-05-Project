@@ -5,10 +5,30 @@
 
 #search {
     display: block;
-    width: 300px;
+    width: 30%;
     margin: 0 auto;
     font-size: 1.25em;
     padding: .25em;
     border: rgb(109, 109, 109) 2px solid;
     border-radius: 2px;
+}
+
+@media (max-width: $break-s) {
+    #search{
+        width: 50%;
+    }
+
+    p{
+        display: none;
+    }
+}
+
+@media (max-width: $break-m) {
+    #search{
+        width: 40%;
+    }
+    
+    p{
+        display: none;
+    }
 }

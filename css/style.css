@@ -112,6 +112,12 @@ template { display: none; }
 /* ============================================= */
 * { box-sizing: border-box; font-family: "Lato", sans-serif; }
 
+h1 { text-align: center; text-transform: uppercase; font-size: 42px; }
+
+span { color: darkgreen; }
+
+p { text-align: center; font-style: italic; }
+
 /* ============================================= */
 /*                   Thumbnails                  */
 /* ============================================= */
@@ -119,9 +125,13 @@ template { display: none; }
 
 .item { margin: 1.5em; }
 
-@media (min-width: 380px) { .search { width: 320px; } }
-
 /* ============================================= */
 /*              Search Bar                       */
 /* ============================================= */
-#search { display: block; width: 300px; margin: 0 auto; font-size: 1.25em; padding: .25em; border: #6d6d6d 2px solid; border-radius: 2px; }
+#search { display: block; width: 30%; margin: 0 auto; font-size: 1.25em; padding: .25em; border: #6d6d6d 2px solid; border-radius: 2px; }
+
+@media (max-width: 380px) { #search { width: 50%; }
+  p { display: none; } }
+
+@media (max-width: 768px) { #search { width: 40%; }
+  p { display: none; } }

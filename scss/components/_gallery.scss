@@ -17,12 +17,14 @@
     margin: 1.5em;
 }
 
-@media (min-width: $break-s) {
-    .search {
-        width: 320px;  
-    }
-}
+// @media (max-width: $break-s) {
+//     .item {
 
-@media (min-width: $break-m) {
+//     }
+// }
 
-}
+// @media (max-width: $break-m) {
+//     .item {
+      
+//     }
+// }
