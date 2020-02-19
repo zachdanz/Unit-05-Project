@@ -128,10 +128,12 @@ p { text-align: center; font-style: italic; color: #494646; }
 /* ============================================= */
 /*              Search Bar                       */
 /* ============================================= */
-#search { background-image: url(photos/search.jpg); background-position: 10px 12px; background-repeat: no-repeat; display: block; width: 30%; margin: 0 auto; font-size: 1em; padding: .75em; padding-left: 40px; border: #6d6d6d 2px solid; border-radius: 5px; }
+#search { background-image: url(../photos/search.png); background-position: 2%; background-size: 20px; background-repeat: no-repeat; display: block; width: 30%; margin: 0 auto; font-size: 1em; padding: .75em; padding-left: 40px; border: #6d6d6d 2px solid; border-radius: 5px; }
 
-@media (max-width: 380px) { #search { width: 50%; }
-  p { display: none; } }
+@media (min-width: 380px) { #search { width: 50%; }
+  p { display: none; }
+  h1 { font-size: 30px; } }
 
-@media (max-width: 768px) { #search { width: 40%; }
-  p { display: none; } }
+@media (min-width: 768px) { #search { width: 40%; }
+  p { display: block; }
+  h1 { font-size: 36px; } }

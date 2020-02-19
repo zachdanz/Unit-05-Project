@@ -12,11 +12,11 @@
 
 /* Search Code */
 
-const searchString = document.getElementById('search');
-const a = document.getElementsByClassName('item');
+let search = document.getElementById('search');
+let a = document.getElementsByClassName('item');
 
-searchString.addEventListener('keyup', () => {
-    const input = searchString.value.toLowerCase();
+search.addEventListener('keyup', () => {
+    const input = search.value.toLowerCase();
 
     for (let i = 0; i < a.length; i += 1) {
         const attrData = a[i].getAttribute('data-caption');
@@ -28,7 +28,7 @@ searchString.addEventListener('keyup', () => {
     }
 });
 
-searchString.addEventListener('search', () => {
+search.addEventListener('search', () => {
     if (event.target.value === '') {
       for (let i = 0; i < a.length; i += 1) {
         a[i].style.display = "";

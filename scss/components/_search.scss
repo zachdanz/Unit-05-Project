@@ -4,8 +4,9 @@
 /* ============================================= */
 
 #search {
-    background-image: url(photos/search.jpg);
-    background-position: 10px 12px;
+    background-image: url(../photos/search.png);
+    background-position: 2%;
+    background-size: 20px;
     background-repeat: no-repeat;
     display: block;
     width: 30%;
@@ -17,7 +18,7 @@
     border-radius: 5px;
 }
 
-@media (max-width: $break-s) {
+@media (min-width: $break-s) {
     #search{
         width: 50%;
     }
@@ -25,14 +26,22 @@
     p {
         display: none;
     }
+
+    h1 {
+        font-size: 30px;
+    }
 }
 
-@media (max-width: $break-m) {
+@media (min-width: $break-m) {
     #search{
         width: 40%;
     }
     
     p {
-        display: none;
+        display: block;
+    }
+
+    h1 {
+        font-size: 36px;
     }
 }
